@@ -1,0 +1,75 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Main Degrees */
+.maindegrees {
+  margin-top: 30vh;
+  text-align: center;
+  transition: 0.5s;
+}
+#main {
+  font-size: 4em;
+  margin-top: 0;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Degree Buttons */
+
+.maindegrees button {
+   background-color: #ecf0f1;
+   border-width: 0;
+   width: 67px;
+   margin: 0;
+   transition: 0.3s;
+   margin-top: 20px;
+}
+
+#b1 {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-right: -2px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+#b2 {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: -2px;
+}
+
+.maindegrees button:hover {
+  background-color: #bdc3c7;
+}
+
+.active {
+  color: black;
+  background-color: #95a5a6 !important;
+}
+
+
+/* Footah */
+
+h3 {
+  margin-top: 39vh;
+  text-align: center;
+  font-weight: lighter;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.image {
+  font-size: 4em;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+}
