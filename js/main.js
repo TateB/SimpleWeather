@@ -27,10 +27,12 @@ $(document).ready( function () {
       $(this).addClass('active');
       if($(this).is(':contains("C")'))  {
         tempUnit = 'metric';
+        $('#main').html(32 + "&deg;" + "C");
         doWeather();
         shortTemp = 'C';
       } else {
         tempUnit = 'imperial';
+        $('#main').html(67.6 + "&deg;" + "F");
         doWeather();
         shortTemp = 'F';
       }
