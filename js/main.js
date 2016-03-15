@@ -43,6 +43,7 @@ $(document).ready( function () {
     function doWeather() {
       var linkWeather = "http://api.openweathermap.org/data/2.5/weather?callback=?";
       var optionsWeather = {
+        apiKey : '94dfb4553ae4ab27c02714834ec4f7e5',
         units : tempUnit,
         q : location
       };
